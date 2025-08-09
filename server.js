@@ -13,7 +13,7 @@ const dashboardRoutes = require("./routes/dashboardRoutes");
 
 app.use(
     cors({
-        origin: "*", // allow all for local testing
+        origin: "https://expense-tracker-ashwan.netlify.app", // allow all for local testing
         methods: ["GET", "POST", "PUT", "DELETE"],
         allowedHeaders: ["Content-Type", "Authorization"],
     })
